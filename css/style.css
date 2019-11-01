@@ -1,0 +1,35 @@
+
+table th a{
+    color: #ffffff;
+}
+
+table th a.active{
+    color: blue;
+}
+
+table td:nth-child(3){
+    width: 40%;
+}
+
+table td:nth-child(4){
+    width: 10%;
+}
+
+.admin_edited{
+    font-size: 75%;
+    line-height: 1.2;
+}
+
+textarea.form-control{
+    height: 150px;
+}
+
+.grid-cutter-10 > .row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid-cutter-10  > .row > [class*='col'] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
